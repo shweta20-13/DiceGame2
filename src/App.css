@@ -1,0 +1,127 @@
+
+ button{
+  padding: 8px;
+  width: 10px;
+  background:#000000;
+  border-radius: 5px;
+  color: white;
+  min-width: 220px;
+  border: none;
+  font-size: 16px;
+  &:hover{
+    background-color: blue;
+  }
+}
+container{
+  display: flex;
+  max-width: 1180px;
+  margin: 0 auto;
+  height: 100vh;
+  align-items: center;
+}
+img{
+  width: 80%;
+  height: 60vh;
+}
+.content h1{
+  font-size: 96px;
+  white-space: nowrap;
+}
+.T_score h1{
+  font-size: 100px;
+  line-height: 100px;
+}
+.T_score p{
+  font-size: 20px;
+  font-weight: 300px;
+}
+.T_score{
+  max-width: 100px;
+  text-align: center;
+  margin-left: 150px;
+}
+.box {
+  height: 72px;
+  width: 72px;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.No_selector{
+  display: flex;
+  gap: 20px;
+}
+.container_No_Selector p{
+  font-size:20px ;
+  font-weight:500 ;
+}
+.top-section{
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  position: absolute;
+  top: 240px;
+  left:500px;
+}
+.container_M{
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+.round{
+  display: flex;
+  justify-content: center;
+}
+.players{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px; 
+}
+.player{
+  color: rgb(127, 125, 125);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.diceContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.img1{
+  height: 90px;
+  width: 90%;
+}
+.diceContainer p{
+  font-size: 20px;
+}
+.dice{
+  cursor: pointer;
+}
+.error{
+  color: red;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.ruleContainer{
+  background-color: #fbf1f1;
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.ruleContainer h2{
+  font-size: 24px;
+}
+.text1
+{
+  margin-top: 24px;
+}  
